@@ -65,20 +65,20 @@
         </thead>
         <tbody>
           {%for i in cars%}
-          <tr>
-            <th scope="row">{{forloop.counter}}</th>
-            <td>{{ i.brand }}</td>
-            <td>{{ i.model }}</td>
-            <td>{{ i.year }}</td>
-            <td>${{ i.price }}</td>
-            <td>{{ i.color }}</td>
-            <td>{{ i.mileage }} km</td>
-            <td>{{i.is_new | yesno:"New,Used"}}</td>
-            <td>
-                <a href="/delete/{{i.id}}" class="btn btn-outline-danger">Sell</a>
-            </td>
+            <tr>
+              <th scope="row">{{forloop.counter}}</th>
+              <td>{{ i.brand }}</td>
+              <td>{{ i.model }}</td>
+              <td>{{ i.year }}</td>
+              <td>${{ i.price }}</td>
+              <td>{{ i.color }}</td>
+              <td>{{ i.mileage }} km</td>
+              <td>{{i.is_new | yesno:"New,Used"}}</td>
+              <td>
+                  <a href="/delete/{{i.id}}" class="btn btn-outline-danger">Sell</a>
+              </td>
 
-          </tr>
+            </tr>
         
           {% endfor %}
         </tbody>
