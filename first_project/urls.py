@@ -5,6 +5,7 @@ from products import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', views.home), 
-    path('gallery/', views.gallery), 
+    path('inventory/', views.inventory), 
+    path("delete/<int:id>",views.delete)
     
 ]

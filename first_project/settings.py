@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-@ab-&@pstoxsr*)k68vb2vwd4*g(oi%ff0(=0qp$%^v=+5romj
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'django-first-dph9ebh5hhebe9dz.canadacentral-01.azurewebsites.net'
+    "*"
 ]
 
 

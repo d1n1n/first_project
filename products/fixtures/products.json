@@ -1,0 +1,133 @@
+[
+    {
+      "model": "products.car",
+      "pk": 1,
+      "fields": {
+        "brand": "BMW",
+        "model": "X5 Xdrive35i",
+        "year": 2021,
+        "price": 60000.00,
+        "color": "Black",
+        "mileage": 10000,
+        "is_new": true
+      }
+    },
+    {
+      "model": "products.car",
+      "pk": 2,
+      "fields": {
+        "brand": "BMW",
+        "model": "335i",
+        "year": 2019,
+        "price": 35000.00,
+        "color": "White",
+        "mileage": 30000,
+        "is_new": false
+      }
+    },
+    {
+      "model": "products.car",
+      "pk": 3,
+      "fields": {
+        "brand": "Audi",
+        "model": "A4",
+        "year": 2020,
+        "price": 40000.00,
+        "color": "Silver",
+        "mileage": 15000,
+        "is_new": true
+      }
+    },
+    {
+      "model": "products.car",
+      "pk": 4,
+      "fields": {
+        "brand": "Audi",
+        "model": "Q7",
+        "year": 2018,
+        "price": 50000.00,
+        "color": "Blue",
+        "mileage": 40000,
+        "is_new": false
+      }
+    },
+    {
+      "model": "products.car",
+      "pk": 5,
+      "fields": {
+        "brand": "Toyota",
+        "model": "Camry",
+        "year": 2022,
+        "price": 30000.00,
+        "color": "Gray",
+        "mileage": 5000,
+        "is_new": true
+      }
+    },
+    {
+      "model": "products.car",
+      "pk": 6,
+      "fields": {
+        "brand": "Toyota",
+        "model": "RAV4",
+        "year": 2021,
+        "price": 32000.00,
+        "color": "Red",
+        "mileage": 8000,
+        "is_new": true
+      }
+    },
+    {
+      "model": "products.car",
+      "pk": 7,
+      "fields": {
+        "brand": "BMW",
+        "model": "M3 G80",
+        "year": 2017,
+        "price": 45000.00,
+        "color": "Yellow",
+        "mileage": 35000,
+        "is_new": false
+      }
+    },
+    {
+      "model": "products.car",
+      "pk": 8,
+      "fields": {
+        "brand": "Audi",
+        "model": "RS7",
+        "year": 2023,
+        "price": 90000.00,
+        "color": "Black",
+        "mileage": 2000,
+        "is_new": true
+      }
+    },
+    {
+      "model": "products.car",
+      "pk": 9,
+      "fields": {
+        "brand": "Toyota",
+        "model": "Highlander",
+        "year": 2020,
+        "price": 35000.00,
+        "color": "White",
+        "mileage": 12000,
+        "is_new": true
+      }
+    },
+    {
+      "model": "products.car",
+      "pk": 10,
+      "fields": {
+        "brand": "Audi",
+        "model": "A6",
+        "year": 2019,
+        "price": 42000.00,
+        "color": "Green",
+        "mileage": 25000,
+        "is_new": false
+      }
+    }
+  ]
+  
