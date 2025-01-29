@@ -1,0 +1,50 @@
+{% extends 'inventory.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="card shadow-lg p-4">
+        <h2 class="text-center mb-4">Product Details</h2>
+        
+        <table class="table table-striped">
+            <tbody>
+                <tr>
+                    <th scope="row">Brand</th>
+                    <td>{{ car.brand }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Model</th>
+                    <td>{{ car.model }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Year</th>
+                    <td>{{ car.year }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Price</th>
+                    <td>${{ car.price }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Color</th>
+                    <td>{{ car.color }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">Mileage</th>
+                    <td>{{ car.mileage }} km</td>
+                </tr>
+                <tr>
+                    <th scope="row">Condition</th>
+                    <td>
+                        {% if car.is_new %}
+                            <span class="badge bg-success">New</span>
+                        {% else %}
+                            <span class="badge bg-secondary">Used</span>
+                        {% endif %}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    
+    </div>
+</div>
+{% endblock %}
